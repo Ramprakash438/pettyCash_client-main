@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+:root{
+    --green:rgb(32, 241, 154);
+    --green2: rgb(73, 224, 73);
+    --white:#fff;
+    --white2:rgb(240, 240, 240);
+}
+
+body{
+    height: 100vh !important;
+    width: 100% !important;
+    background-image: linear-gradient(to right top, #6bd199, #5ed5c3, #76d5df, #9fd3e9, #c1d2e5, #c3d5ea, #c5d8ee, #c7dbf3, #a4e4ff, #72eeff, #4bf7ea, #5ffbc1);
+}
+
+/* error messages if validation fails*/
+.error__message {
+    margin: 0;
+    padding: 0;
+    font-size: 0.95em;
+    display: block;
+    text-align: center;
+}
+
+/* media query for error messages from server*/
+@media (width < 426px) {
+    .error__message {
+        font-size: 0.75em;
+    }
+}
