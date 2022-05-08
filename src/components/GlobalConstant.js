@@ -1,1 +1,1 @@
-export const API_URL = "https://petty-cash-manager.herokuapp.com"
+export const API_URL = "https://petty--cash.herokuapp.com/"
