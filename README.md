@@ -1,4 +1,4 @@
-## Netlify URL: https://aquamarine-dragon-0c74b1.netlify.app/
+## Netlify URL: https://aquamarine-dragon-0c74b1.netlify.app
 
 ## EndPoint: 
 
